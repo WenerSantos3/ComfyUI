@@ -704,6 +704,11 @@ class PromptServer():
 
         @routes.post("/prompt")
         async def post_prompt(request):
+
+            # verifica o autorization header
+            if request.headers.get("Authorization") != os.getenv("BLUEE_API_KEY"):
+                return web.json_response({"error": "Unauthorized"}, status=401)
+            
             logging.info("got prompt")
             json_data =  await request.json()
             json_data = self.trigger_on_prompt(json_data)
