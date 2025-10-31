@@ -1,0 +1,16 @@
+pyproject.toml
+.gitignore
+requirements.txt
+README.md
+LICENSE
+__init__.py
+src/nodes_mappings.py
+src/client_s3.py
+src/logger.py
+src/nodes/download_file_s3.py
+src/nodes/save_video_files_s3.py
+src/nodes/load_image_s3.py
+src/nodes/__init__.py
+src/nodes/upload_file_s3.py
+src/nodes/save_image_s3.py
+.github/workflows/publish.yml

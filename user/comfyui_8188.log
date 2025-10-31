@@ -1,0 +1,104 @@
+## ComfyUI-Manager: installing dependencies. (GitPython)
+[2025-10-28 14:16:34.353] ## ComfyUI-Manager: installing dependencies done.
+[2025-10-28 14:16:34.353] ** ComfyUI startup time: 2025-10-28 14:16:34.353
+[2025-10-28 14:16:34.353] ** Platform: Linux
+[2025-10-28 14:16:34.353] ** Python version: 3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0]
+[2025-10-28 14:16:34.353] ** Python executable: /usr/bin/python3
+[2025-10-28 14:16:34.353] ** ComfyUI Path: /workspace/ComfyUI
+[2025-10-28 14:16:34.353] ** ComfyUI Base Folder Path: /workspace/ComfyUI
+[2025-10-28 14:16:34.353] ** User directory: /workspace/ComfyUI/user
+[2025-10-28 14:16:34.353] ** ComfyUI-Manager config path: /workspace/ComfyUI/user/default/ComfyUI-Manager/config.ini
+[2025-10-28 14:16:34.353] ** Log path: /workspace/ComfyUI/user/comfyui.log
+
+Prestartup times for custom nodes:
+[2025-10-28 14:16:35.450]   12.4 seconds: /workspace/ComfyUI/custom_nodes/comfyui-manager
+[2025-10-28 14:16:35.450] 
+[2025-10-28 14:16:36.807] Checkpoint files will always be loaded safely.
+[2025-10-28 14:16:37.034] Total VRAM 45386 MB, total RAM 257733 MB
+[2025-10-28 14:16:37.034] pytorch version: 2.6.0+cu124
+[2025-10-28 14:16:37.035] Set vram state to: NORMAL_VRAM
+[2025-10-28 14:16:37.035] Device: cuda:0 NVIDIA L40 : cudaMallocAsync
+[2025-10-28 14:16:38.171] Using pytorch attention
+[2025-10-28 14:16:39.594] Python version: 3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0]
+[2025-10-28 14:16:39.594] ComfyUI version: 0.3.67
+[2025-10-28 14:16:39.599] ComfyUI frontend version: 1.28.8
+[2025-10-28 14:16:39.599] [Prompt Server] web root: /usr/local/lib/python3.10/dist-packages/comfyui_frontend_package/static
+[2025-10-28 14:16:40.780] ### Loading: ComfyUI-Manager (V3.37)
+[2025-10-28 14:16:40.780] [ComfyUI-Manager] network_mode: public
+[2025-10-28 14:16:40.833] ### ComfyUI Version: v0.3.67-3-g3bea4efc | Released on '2025-10-28'
+[2025-10-28 14:16:40.996] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2025-10-28 14:16:40.998] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2025-10-28 14:16:41.031] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2025-10-28 14:16:41.090] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2025-10-28 14:16:41.136] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2025-10-28 14:16:41.242] Warning: Could not load sageattention: No module named 'sageattention'
+[2025-10-28 14:16:41.242] sageattention package is not installed, sageattention will not be available
+[2025-10-28 14:16:41.730] WanVideoWrapper WARNING: FantasyPortrait nodes not available due to error in importing them: No module named 'onnx'
+[2025-10-28 14:16:42.017] 
+Import times for custom nodes:
+[2025-10-28 14:16:42.017]    0.0 seconds: /workspace/ComfyUI/custom_nodes/websocket_image_save.py
+[2025-10-28 14:16:42.017]    0.1 seconds: /workspace/ComfyUI/custom_nodes/comfyui-videohelpersuite
+[2025-10-28 14:16:42.017]    0.1 seconds: /workspace/ComfyUI/custom_nodes/comfyui-kjnodes
+[2025-10-28 14:16:42.017]    0.1 seconds: /workspace/ComfyUI/custom_nodes/comfyui-manager
+[2025-10-28 14:16:42.017]    0.1 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-MelBandRoFormer
+[2025-10-28 14:16:42.017]    0.9 seconds: /workspace/ComfyUI/custom_nodes/ComfyUI-WanVideoWrapper
+[2025-10-28 14:16:42.017] 
+[2025-10-28 14:16:42.261] Context impl SQLiteImpl.
+[2025-10-28 14:16:42.261] Will assume non-transactional DDL.
+[2025-10-28 14:16:42.262] No target revision found.
+[2025-10-28 14:16:42.274] Starting server
+
+[2025-10-28 14:16:42.274] To see the GUI go to: http://0.0.0.0:8188
+[2025-10-28 14:16:44.378] FETCH ComfyRegistry Data: 5/102
+[2025-10-28 14:16:47.928] FETCH ComfyRegistry Data: 10/102
+[2025-10-28 14:16:51.446] FETCH ComfyRegistry Data: 15/102
+[2025-10-28 14:16:54.954] FETCH ComfyRegistry Data: 20/102
+[2025-10-28 14:16:58.413] FETCH ComfyRegistry Data: 25/102
+[2025-10-28 14:16:59.815] [DEPRECATION WARNING] Detected import of deprecated legacy API: /extensions/core/widgetInputs.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2025-10-28 14:16:59.845] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2025-10-28 14:16:59.846] [DEPRECATION WARNING] Detected import of deprecated legacy API: /extensions/core/groupNode.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2025-10-28 14:17:00.595] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui/components/buttonGroup.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2025-10-28 14:17:00.628] [DEPRECATION WARNING] Detected import of deprecated legacy API: /scripts/ui/components/button.js. This is likely caused by a custom node extension using outdated APIs. Please update your extensions or contact the extension author for an updated version.
+[2025-10-28 14:17:01.919] FETCH ComfyRegistry Data: 30/102
+[2025-10-28 14:17:05.458] FETCH ComfyRegistry Data: 35/102
+[2025-10-28 14:17:08.882] got prompt
+[2025-10-28 14:17:08.887] Failed to validate prompt for output 131:
+[2025-10-28 14:17:08.887] * LoadAudio 125:
+[2025-10-28 14:17:08.887]   - Custom validation failed for node: audio - Invalid audio file: 1.ogg
+[2025-10-28 14:17:08.887] * WanVideoLoraSelect 138:
+[2025-10-28 14:17:08.887]   - Value not in list: lora: 'lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors' not in []
+[2025-10-28 14:17:08.887] * MultiTalkModelLoader 120:
+[2025-10-28 14:17:08.888]   - Value not in list: model: 'Wan2_1-InfiniteTalk_Single_Q8.gguf' not in []
+[2025-10-28 14:17:08.888] * WanVideoModelLoader 122:
+[2025-10-28 14:17:08.888]   - Value not in list: model: 'wan2.1-i2v-14b-720p-Q8_0.gguf' not in []
+[2025-10-28 14:17:08.888] * MelBandRoFormerModelLoader 301:
+[2025-10-28 14:17:08.888]   - Value not in list: model_name: 'MelBandRoformer_fp16.safetensors' not in []
+[2025-10-28 14:17:08.888] * CLIPVisionLoader 238:
+[2025-10-28 14:17:08.888]   - Value not in list: clip_name: 'clip_vision_h.safetensors' not in []
+[2025-10-28 14:17:08.888] * LoadImage 284:
+[2025-10-28 14:17:08.888]   - Custom validation failed for node: image - Invalid image file: 1.jpeg
+[2025-10-28 14:17:08.888] * WanVideoVAELoader 129:
+[2025-10-28 14:17:08.888]   - Value not in list: model_name: 'Wan2_1_VAE_bf16.safetensors' not in []
+[2025-10-28 14:17:08.888] * WanVideoTextEncodeCached 241:
+[2025-10-28 14:17:08.888]   - Value not in list: model_name: 'umt5-xxl-enc-bf16.safetensors' not in []
+[2025-10-28 14:17:08.888] Output will be ignored
+[2025-10-28 14:17:08.888] Failed to validate prompt for output 293:
+[2025-10-28 14:17:08.888] Output will be ignored
+[2025-10-28 14:17:08.888] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2025-10-28 14:17:08.949] FETCH ComfyRegistry Data: 40/102
+[2025-10-28 14:17:12.450] FETCH ComfyRegistry Data: 45/102
+[2025-10-28 14:17:16.273] FETCH ComfyRegistry Data: 50/102
+[2025-10-28 14:17:19.766] FETCH ComfyRegistry Data: 55/102
+[2025-10-28 14:17:23.474] FETCH ComfyRegistry Data: 60/102
+[2025-10-28 14:17:26.983] FETCH ComfyRegistry Data: 65/102
+[2025-10-28 14:17:30.509] FETCH ComfyRegistry Data: 70/102
+[2025-10-28 14:17:34.105] FETCH ComfyRegistry Data: 75/102
+[2025-10-28 14:17:37.667] FETCH ComfyRegistry Data: 80/102
+[2025-10-28 14:17:41.231] FETCH ComfyRegistry Data: 85/102
+[2025-10-28 14:17:45.280] FETCH ComfyRegistry Data: 90/102
+[2025-10-28 14:17:49.482] FETCH ComfyRegistry Data: 95/102
+[2025-10-28 14:17:54.324] FETCH ComfyRegistry Data: 100/102
+[2025-10-28 14:17:56.240] FETCH ComfyRegistry Data [DONE]
+[2025-10-28 14:17:56.420] [ComfyUI-Manager] default cache updated: https://api.comfy.org/nodes
+[2025-10-28 14:17:56.439] FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
+[2025-10-28 14:17:56.547] [ComfyUI-Manager] All startup tasks have been completed.
