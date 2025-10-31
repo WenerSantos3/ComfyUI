@@ -41,12 +41,6 @@ Este projeto utiliza os seguintes custom nodes do ComfyUI:
 - **[ComfyUI-MelBandRoFormer](https://github.com/kijai/ComfyUI-MelBandRoFormer)**
   - Nó para Mel-Band RoFormer para separação de fontes musicais
 
-- **[ComfyUI-RequestNodes](https://github.com/felixszeto/ComfyUI-RequestNodes)**
-  - Nós para enviar requisições HTTP (GET, POST, REST API) e utilitários relacionados
-
-- **ComfyUI-BlueeUtils**
-  - Utilitários para manipulação de arquivos e JSON
-
 - **ComfyUI-SageAttention3**
   - Nó experimental para atenção Sage 3 (Blackwell)
 
